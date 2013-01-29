@@ -34,4 +34,9 @@ Attachments::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # Paperclip.options[:command_path] = "/usr/local/bin/ImageMagick-6.8.1/bin/"
+  Paperclip.options[:command_path] = "/usr/local/bin"
+  
+  
 end
